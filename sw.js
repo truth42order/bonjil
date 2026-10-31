@@ -1,5 +1,5 @@
 // 콘텐츠·코드를 바꾸면 이 버전을 올리세요 (예: v2 → v3).
-const CACHE_VERSION = 'bonjil-v4';
+const CACHE_VERSION = 'bonjil-v5';
 const SHELL = ['./', './index.html', './css/style.css', './js/app.js', './manifest.json',
   './icons/icon-192.png', './icons/icon-512.png', './data/questions.json'];
 

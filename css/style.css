@@ -160,3 +160,9 @@ body::before{content:"";position:fixed;inset:-10%;z-index:-1;pointer-events:none
   .chartbox .note{color:#454d5f}
 }
 @supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){@media (prefers-color-scheme:dark){.pinbar{background:rgba(20,24,40,.7)}}}
+/* rev2: 카드 위 빈칸 제거 — 선택/묶음 표시는 카드 위 모서리에 겹쳐 띄움 */
+.cardbtn{justify-content:center;overflow:visible}
+.cardbtn .tagline{position:absolute;top:-10px;right:10px;min-height:0;line-height:1.5;z-index:2;pointer-events:none}
+.cardbtn .tagline:empty{display:none}
+.cardbtn .tagline .chk,.cardbtn .tagline .tag{box-shadow:0 2px 6px rgba(0,0,0,.25)}
+.cards{row-gap:18px;padding-top:8px}
